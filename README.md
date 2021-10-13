@@ -15,12 +15,10 @@ Minify javascript files on a folder recursively.
 npm i jsmin-recursive -g
 ```
 ## Usage/Examples
-
 ```bash
-jsmin-recursive --input=dist/js --verbose
+jsmin-recursive folderName
 ```
-
-## Options
-
-- `--input=[dir]`&ensp;&ensp;Input directory
-- `--verbose`&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Enable verbose
+example:
+```bash
+jsmin-recursive dist/js
+```

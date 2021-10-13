@@ -1,0 +1,25 @@
+{
+  "name": "jsmin-recursive",
+  "version": "1.0.0",
+  "description": "Minify javascript files on a folder recursively.",
+  "bin": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarstone/jsmin-recursive.git"
+  },
+  "keywords": [
+    "js minify",
+    "esbuild minify",
+    "minify recursive",
+    "jsmin"
+  ],
+  "author": "jarstone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jarstone/jsmin-recursive/issues"
+  },
+  "homepage": "https://github.com/jarstone/jsmin-recursive#readme",
+  "dependencies": {
+    "esbuild": "^0.13.5"
+  }
+}
