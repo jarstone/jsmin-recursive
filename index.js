@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { readdirSync, statSync } = require('fs')
 const { readFile, writeFile } = require('fs/promises')
 const { transform } = require('esbuild')
